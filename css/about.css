@@ -1,0 +1,65 @@
+/* ABOUT */
+header .header_box nav ul li:nth-child(1) a {border-bottom: 2px solid #ea6958;}
+
+main { width: 100%; margin: 0 auto; }
+
+main #intro { width: 80%; padding-top: 190px; overflow: hidden;margin: 0 auto;}
+main #intro .intBox {width: 100%; }
+main #intro .intBox > div {width: calc(50% - 20px); height: 400px; background-color: #ea6958; float: left; margin-right: 30px; margin-bottom: 20px;}
+main #intro .intBox > div img { width: 100%; }
+main #intro h1 { font-size: 66px; font-weight: 600; padding-bottom: 80px;} 
+main #intro .intBox p {font-size: 16px; color: #666; line-height: 1.7; text-align: left; font-weight: 350;}
+main #intro .intBox::after {content:""; display: block; clear: both;}
+
+main ul.button { width: 80%; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: start; justify-content: space-between; margin: 0 auto;padding-top: 100px; margin-bottom: 100px;}
+main ul.button li { width: calc(25% - 20px); margin: 10px; text-align: center; ;}
+
+
+main ul.button li > p {width: 100%; height: 100%; display: block;  background: white; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); height: 45px; line-height: 45px; font-size: 14px; display: block; margin-bottom: 30px; color:#ea6958;}
+main ul.button li > p i { color:#ea6958; margin-right: 10px;}
+
+main ul.button li article { width: 100%;  border-radius: 5px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); }
+main ul.button li article div { width: 100%; height: 100%;  overflow: hidden; padding: 10px 15px 20px 15px; text-align: left;}
+
+main ul.button li article div h2 {font-weight: 430; font-size: 14px; margin: 18px 0 15px 0;}
+main ul.button li article div p {margin: 4px 0 4px 3px; font-size: 13px; color: #666;line-height: 1.5; font-weight: 300;}
+main ul.button li article div i {margin: 0px 0 3px 3px; font-size: 11px; color: rgb(170, 170, 170);line-height: 1.5; font-weight: 300;}
+
+/* ====================Responsive========================= */
+
+@media (max-width:1199px){
+    header .wrap{width: 85%;}
+    footer .wrap{width: 85%;}
+    main {padding-bottom: 40px;}
+    main #intro {width: 85%; padding-top: 150px;}
+    main ul.button {width: 85%;}
+
+    main #intro h1 { font-size: 54px; padding-bottom: 70px;}
+    main #intro .intBox div {width: calc(50% - 15px); }
+
+    main ul.button {margin-bottom: 50px;}
+    main ul.button li { width: calc(50% - 20px);}
+    main ul.button li:nth-of-type(1), main ul.button li:nth-of-type(2) {margin-bottom: 20px;}
+    main ul.button li article {padding: 20px}
+}
+
+
+@media (max-width:767px){
+    header .wrap{width: 90%;}
+    footer .wrap{width: 90%;}
+    main #intro {width: 90%; }
+    main ul.button {width: 90%;}
+    main {padding-bottom: 20px;}
+
+    main #intro {height: auto; padding-top: 140px;}
+    main #intro .intBox {flex-direction: column;}
+    main #intro h1 { font-size: 36px; padding-bottom: 50px;}
+    main #intro .intBox div {width: 100%; display: block;}
+
+
+    main ul.button li { width: 100%; margin-bottom: 20px;}
+    main ul.button li article {height: auto; padding: 20px}
+    main ul.button li:nth-of-type(3) article, main ul.button li:nth-of-type(4) article {height: auto}
+
+    header .wrap nav ul li a{border-bottom: none;}
+}

@@ -1,0 +1,92 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+
+main section {width: 100%; padding-top: 60px; margin-bottom: 60px;}
+main section .wrap {width: 80%; }
+
+/* ================CONTACT=================== */
+
+#contact .contact {padding-top: calc(100vh / 10);}
+#contact .contact hr {width: 40px; height: 3px; background-color: #ea6958; border: none; margin: 0 auto; margin-bottom: calc(100vh / 35);}
+#contact .contact { text-align: center;}
+#contact .contact h2 { font-size: 36px; font-weight: 500;margin-bottom: calc(100vh / 20);; text-align: center; text-transform: uppercase; padding-top: calc(100vh / 40);}
+#contact .contact form {width: 60%; margin: 0 auto;}
+#contact .contact fieldset { border: none;}
+
+
+
+#contact .contact fieldset .formlist ul li { display: flex; padding: 15px 0; } 
+#contact .contact fieldset .formlist ul li label {display: block; width: 140px; font-size: 16px; word-break: keep-all; line-height: 40px; text-align: left; color: #777;}
+
+#contact .contact fieldset .formlist ul li label sup {padding-left: 5px; font-size: 12px;}
+
+
+#contact .contact fieldset .formlist ul li .inputbox { display: block; width: calc(100% - 150px); padding-left: 5px;}
+#contact .contact fieldset .formlist ul li .inputbox input {display: block; width: 100%; line-height: 40px; font-size: 14px; border: none; border: 1px solid #ccc; background-color: transparent;padding: 0 10px; margin: 0px; border-radius: 4px;} 
+#contact .contact fieldset .formlist ul li .inputbox textarea { display: block; width: 100%; border: none; border: 1px solid #ccc; height: calc(100vh / 4); resize: none; line-height: 1.5; padding: 12px 10px; font-size: 14px; background-color: transparent; border-radius: 4px;}
+
+#contact .contact fieldset .formlist .btn_box { padding-top: calc(100vh / 20); text-align: right; margin: 0 auto; text-align: center;}
+#contact .contact fieldset .formlist .btn_box button { font-size: 17px; background-color: #ea6958; color: #fff; border: none; border-radius: 5px; cursor: pointer; padding: 10px 20px;}
+#contact .contact fieldset .formlist .btn_box button:hover { background-color: #c74433;}
+
+#contact .thankyou_message {position: fixed; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.8); top: 0; left: 0; display: none; z-index: 4;}
+#contact .thankyou_message article {position: absolute; width: 50%; height: 50%; max-width: 500px; min-width: 320px; background-color: #fff; border-radius: 4px; padding: 40px; height: 250px; top: 50%;left: 50%; transform: translate(-50%, -50%); box-shadow: 0 0 2px #999;}
+
+#contact .thankyou_message article svg { width: 70px; height: auto;fill: #ea6958;}
+#contact .thankyou_message article h2 { font-size: 20px; word-break: keep-all; line-height: 1; }
+#contact .thankyou_message article p {font-size: 12px;  line-height: 1; color: #999; display: block;}
+
+#contact .thankyou_message article .btn_box { text-align: right;}
+#contact .thankyou_message article .btn_box .close { display: inline-block; padding: 6px 12px; border-radius: 4px; font-size: 18px; position: absolute; top: 10px; right: 5px; font-weight: bold;}
+
+
+/* ================RESPONSIVE=================== */
+
+
+@media (max-width:1199px){
+    
+    header .wrap{width: 85%;}
+    footer .wrap{width: 85%;}
+    main section .wrap{width: 85%; }
+
+    main #home .container h2 {font-size: 45px;}
+    main #home .container p {font-size: 40px;}
+    main #home .container span.typed-text {font-size: 40px;}
+    main #home .wrap {width: 100%; }
+
+    #contact .contact form {width: 75%;}
+}
+
+@media (max-width:767px){
+    header .wrap{width: 90%;}
+    footer .wrap{width: 90%;}
+    main section .wrap{width: 90%; }
+
+    #contact .contact h2 { font-size: 30px;}
+    #contact .contact form {width: 80%;}
+    #contact .contact fieldset .formlist ul li label {width: 130px; }
+    #contact .contact fieldset .formlist ul li .inputbox {width: calc(100% - 140px);}
+
+}
+
+
+@media (max-width: 555px){
+
+    main #contact .contact fieldset .formlist ul li label {width: 100px; }
+    main #contact .contact fieldset .formlist ul li .inputbox {width: calc(100% - 120px);}
+}
+@media (max-width: 424px){
+    main #contact .contact fieldset .formlist ul li label {width: 90px; font-size: 14px;}
+    main #contact .contact fieldset .formlist ul li .inputbox input {font-size: 12px;}
+    main #contact .contact fieldset .formlist ul li .inputbox textarea {font-size: 12px;}
+    main #contact .contact fieldset .formlist ul li .inputbox {width: calc(100% - 80px);}
+    
+    
+}
+
+@media (max-width: 388px){
+    
+    main #contact .contact fieldset .formlist ul li label {width: 80px; padding: 0;}
+    main #contact .contact fieldset .formlist ul li .inputbox {width: calc(100% - 60px); padding-left: 15px;}
+}
