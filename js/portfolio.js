@@ -4,7 +4,7 @@ var $cont_01 = [
     ["fro", "front1.jpg", "RESPONSIVE WEB", "HTML, CSS, JQUERY, RESPONSIVE", "https://sooinlee33.github.io/responsive/"],
     ["fro", "front4.jpg", "CSS EFFECT", "HTML, CSS", "https://sooinlee33.github.io/glassmorphism/"],
     ["gra", "graphic1.jpg", "BRAND POSTER", "PHOTOSHOP", ""],
-    ["gra", "graphic2.jpg", "STYLE REFERENCE", "PHOTOSHOP", ""]
+    ["gra", "graphic2.jpg", "TRANSFORM STYLE", "PHOTOSHOP", ""]
 ];
 
 var $container = document.querySelector("main section");
