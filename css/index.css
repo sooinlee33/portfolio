@@ -136,7 +136,7 @@ main #home .container span.typed-text {font-weight: normal;color: #ea6958; font-
     main #contact .contact fieldset .formlist ul li .inputbox {width: calc(100% - 80px);}
     
     main #content .content_box ul li {width: 100%;height: calc(100vh / 6); margin-top: calc(100vh / 70);}
-    main #content .content_box ul li .cont_txt_box a {width: 100%;height: 100%;font-size: 0; border: none; }
+    main #content .content_box ul li .cont_txt_box a {width: 100%;height: 100%;font-size: 0; border: none; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
     main #content .content_box ul li .cont_txt_box a:hover {background-color: transparent;}
     main #content .content_box ul li .cont_txt_box span {top: 50%;}
 }
