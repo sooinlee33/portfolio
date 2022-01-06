@@ -58,8 +58,6 @@ main section #fullImgBox span {position: absolute;top: 5%; right: 5%; color: whi
 }
 
 
-
-
 @media (max-width: 388px){
     main ul.button li a {font-size: 12px;}
     main section article { width: calc(100% - 10px); height: 230px; margin: 10px 5px;}
