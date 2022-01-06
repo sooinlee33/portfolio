@@ -70,5 +70,5 @@ main section #fullImgBox span {position: absolute;top: 5%; right: 5%; color: whi
 @media (max-width: 388px){
     main section article .txt2_box {padding: 15px 15px 0 15px; }
     main ul.button li a {font-size: 12px;}
-    main section article { width: calc(100% - 10px); height: 230px; margin: 10px 5px;}
+    main section article { width: calc(100% - 10px); margin: 10px 5px;}
 }
