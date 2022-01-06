@@ -57,8 +57,18 @@ main section #fullImgBox span {position: absolute;top: 5%; right: 5%; color: whi
 
 }
 
+@media (max-width:700px){
+    main section #fullImgBox #fullImg {width: 92%; height: auto;}
+}
+
+
+@media (max-width:516px){
+    main section article .txt2_box {padding: 10px; }
+}
+
 
 @media (max-width: 388px){
+    main section article .txt2_box {padding: 20px; }
     main ul.button li a {font-size: 12px;}
     main section article { width: calc(100% - 10px); height: 230px; margin: 10px 5px;}
 }
