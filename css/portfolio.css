@@ -20,6 +20,7 @@ main section article { width: calc(50% - 20px); margin: 15px 10px;}
 
 
 main section article > div { width: 100%; background-color: transparent; }
+main section article.gra > div a {cursor: default;}
 main section article > div a {display: block; position: relative;}
 main section article div img { width: 100%; height: auto;  border-radius: 5px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);}
 
