@@ -59,11 +59,13 @@ main section #fullImgBox span {position: absolute;top: 5%; right: 5%; color: whi
 
 @media (max-width:700px){
     main section #fullImgBox #fullImg {width: 92%; height: auto;}
+    main section article { margin: 10px 5px;  }
 }
 
 
 @media (max-width:516px){
     main section article .txt2_box {padding: 10px 10px 0 10px; }
+    main section article { margin: 7px 5px;  }
 }
 
 
