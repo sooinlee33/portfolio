@@ -18,9 +18,9 @@ main #home {}
 main #home .main_box {position: relative; }
 main #home .main_box .txt_box { width: 100%; text-align: left; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -60%); text-align: center; } 
 
-main #home .main_box button { background: none; border: none; height: 100px; width: 50px; position: absolute; left: 50%; transform: translateX(-50%); bottom: 10px; cursor: pointer; text-align: center;}
+main #home .main_box button { background: none; border: none; height: 100px; width: 100%; position: absolute; left: 50%; transform: translateX(-50%); bottom: 10px; cursor: pointer; text-align: center;}
 main #home .main_box button span {font-size: 16px; display: block; text-align: center;}
-main #home .main_box  button svg {padding-top: 13px; height: 60px; padding-left: 10px;}
+main #home .main_box  button svg {padding-top: 13px; height: 60px; }
 
 /* ================CONTENT=================== */
 

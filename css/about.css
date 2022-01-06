@@ -5,7 +5,7 @@ main { width: 100%; margin: 0 auto; }
 
 main #intro { width: 80%; padding-top: 190px; overflow: hidden;margin: 0 auto;}
 main #intro .intBox {width: 100%; }
-main #intro .intBox > div {width: calc(50% - 20px); height: 400px; background-color: #ea6958; float: left; margin-right: 30px; margin-bottom: 20px;}
+main #intro .intBox > div {width: calc(50% - 20px);  background-color: transparent; float: left; margin-right: 30px; margin-bottom: 20px; }
 main #intro .intBox > div img { width: 100%; }
 main #intro h1 { font-size: 66px; font-weight: 600; padding-bottom: 80px;} 
 main #intro .intBox p {font-size: 16px; color: #666; line-height: 1.7; text-align: left; font-weight: 350;}

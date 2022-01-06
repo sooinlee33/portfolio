@@ -1,7 +1,8 @@
 var $cont_01 = [
-    ["fro", "front1.jpg", "Responsive Web", "html, css, jquery, responsive", "https://sooinlee33.github.io/responsive/"],
-    ["fro", "front2.jpg", "Shopping, Price", "html, css, javascript", "https://sooinlee33.github.io/calculator/"],
-    ["fro", "front3.jpg", "BOM Loacation Hash", "html, css, javascript, responsive", "https://sooinlee33.github.io/hashlocation/"]
+    ["fro", "front3.jpg", "HASH LOCATION", "HTML, CSS, JAVASCRIPT, RESPONSIVE", "https://sooinlee33.github.io/hashlocation/"],
+    ["fro", "front2.jpg", "PRICE CALCULATOR", "HTML, CSS, JAVASCRIPT", "https://sooinlee33.github.io/calculator/"],
+    ["fro", "front1.jpg", "RESPONSIVE WEB", "HTML, CSS, JQUERY, RESPONSIVE", "https://sooinlee33.github.io/responsive/"],
+    ["fro", "front4.jpg", "CSS EFFECT", "HTML, CSS", "https://sooinlee33.github.io/GlassMorphism/"]
 ];
 
 var $container = document.querySelector("main section");

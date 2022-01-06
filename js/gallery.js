@@ -25,7 +25,7 @@ var $cont_01 = [
     ["tra", "17taiwan2.JPG", "Taiwan", "2017"],
     ["tra", "17taiwan3.JPG", "Taiwan", "2017"],
     ["tra", "17taiwan4.JPG", "Taiwan", "2017"],
-    ["tra", "17japan1.JPG", "Japan", "2017"],
+    ["tra", "17japan1.jpg", "Japan", "2017"],
     ["tra", "17japan2.JPG", "Japan", "2017"],
     ["tra", "17japan3.JPG", "Japan", "2017"],
     ["tra", "17mongolia1.JPG", "Mongolia", "2017"],
