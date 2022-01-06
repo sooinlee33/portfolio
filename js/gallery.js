@@ -56,7 +56,6 @@ var $cont_01 = [
     ["new", "19newyork11.JPG", "New York", "2020"],
     ["new", "19newyork12.JPG", "New York", "2020"]
 
-
 ];
 
 var $container = document.querySelector("main section");
