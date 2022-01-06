@@ -50,7 +50,7 @@ main section #fullImgBox span {position: absolute;top: 5%; right: 5%; color: whi
 
     main ul.button li { width: calc(25% - 10px); margin: 5px; height: 45px; overflow: hidden;}
     main ul.button li a {font-size: 13px; line-height: 1.5; align-items: center; line-height: 45px;}
-    main section article { width: calc(50% - 10px); margin: 15px 5px;  }
+    main section article { width: calc(50% - 10px); margin: 10px 5px;  }
     main h1 { font-size: 36px; padding-bottom: 50px;}
 
     header .wrap nav ul li a{border-bottom: none;}
