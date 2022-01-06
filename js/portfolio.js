@@ -3,8 +3,8 @@ var $cont_01 = [
     ["fro", "front2.jpg", "PRICE CALCULATOR", "HTML, CSS, JAVASCRIPT", "https://sooinlee33.github.io/calculator/"],
     ["fro", "front1.jpg", "RESPONSIVE WEB", "HTML, CSS, JQUERY, RESPONSIVE", "https://sooinlee33.github.io/responsive/"],
     ["fro", "front4.jpg", "CSS EFFECT", "HTML, CSS", "https://sooinlee33.github.io/glassmorphism/"],
-    ["gra", "graphic1.jpg", "BRAND POSTER", "PHOTOSHOP", ""],
-    ["gra", "graphic2.jpg", "STYLE TRANSFORMATION", "PHOTOSHOP", ""]
+    ["gra", "graphic1.jpg", "BRAND POSTER", "PHOTOSHOP", "javascript:void(0)"],
+    ["gra", "graphic2.jpg", "STYLE TRANSFORMATION", "PHOTOSHOP", "javascript:void(0)"]
 ];
 
 var $container = document.querySelector("main section");
