@@ -4,7 +4,11 @@ var $cont_01 = [
     ["fro", "front1.jpg", "RESPONSIVE WEB", "HTML, CSS, JQUERY, RESPONSIVE", "https://sooinlee33.github.io/responsive/"],
     ["fro", "front4.jpg", "CSS EFFECT", "HTML, CSS", "https://sooinlee33.github.io/glassmorphism/"],
     ["gra", "graphic1.jpg", "BRAND POSTER", "PHOTOSHOP", "javascript:void(0)"],
-    ["gra", "graphic2.jpg", "STYLE TRANSFORMATION", "PHOTOSHOP", "javascript:void(0)"]
+    ["gra", "graphic2.jpg", "STYLE TRANSFORMATION", "PHOTOSHOP", "javascript:void(0)"],
+    ["gra", "graphic3.jpg", "EVENT BROCHURE", "PHOTOSHOP", "javascript:void(0)"],
+    ["gra", "graphic4.jpg", "EVENT POSTER", "PHOTOSHOP", "javascript:void(0)"],
+    ["gra", "graphic5.jpg", "FASHION PORTFOLIO", "PHOTOSHOP, ILLUSTRATOR", "javascript:void(0)"],
+    ["gra", "graphic6.jpg", "FASHION PORTFOLIO", "PHOTOSHOP, ILLUSTRATOR", "javascript:void(0)"],
 ];
 
 var $container = document.querySelector("main section");
