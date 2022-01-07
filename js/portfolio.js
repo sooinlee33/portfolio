@@ -32,6 +32,7 @@ var $cont_02 =[
     ["graphic2.jpg", "STYLE TRANSFORMATION"],
     ["graphic3.jpg", "EVENT BROCHURE", "PHOTOSHOP"],
     ["graphic4.jpg", "EVENT POSTER", "PHOTOSHOP"],
+    ["graphic50.jpg", "PATTERN & COLOR", "PHOTOSHOP, ILLUSTRATOR"],
     ["graphic5.jpg", "FASHION PORTFOLIO", "PHOTOSHOP, ILLUSTRATOR"],
     ["graphic6.jpg", "FASHION PORTFOLIO", "PHOTOSHOP, ILLUSTRATOR"],
 ]
