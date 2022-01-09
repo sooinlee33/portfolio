@@ -29,7 +29,7 @@ $container.innerHTML = $container_box;
 
 var $cont_02 =[
     ["graphic1.jpg", "BRAND POSTER", "PHOTOSHOP"],
-    ["graphic2.jpg", "STYLE TRANSFORMATION"],
+    ["graphic2.jpg", "PHOTO EFFECT", "PHOTOSHOP, ILLUSTRATOR"],
     ["graphic3.jpg", "EVENT BROCHURE", "PHOTOSHOP"],
     ["graphic4.jpg", "EVENT POSTER", "PHOTOSHOP"],
     ["graphic50.jpg", "PATTERN & COLOR", "PHOTOSHOP, ILLUSTRATOR"],
