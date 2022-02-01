@@ -2,7 +2,8 @@ var $cont_01 = [
     ["fro", "front3.jpg", "HASH LOCATION", "HTML, CSS, JAVASCRIPT, RESPONSIVE", "https://sooinlee33.github.io/hashlocation/"],
     ["fro", "front2.jpg", "PRICE CALCULATOR", "HTML, CSS, JAVASCRIPT", "https://sooinlee33.github.io/calculator/"],
     ["fro", "front1.jpg", "RESPONSIVE WEB", "HTML, CSS, JQUERY, RESPONSIVE", "https://sooinlee33.github.io/responsive/"],
-    ["fro", "front4.jpg", "CSS EFFECT", "HTML, CSS", "https://sooinlee33.github.io/glassmorphism/"]
+    ["fro", "front4.jpg", "CSS EFFECT", "HTML, CSS", "https://sooinlee33.github.io/glassmorphism/"],
+    ["des", "des1.png", "PROTOTYPE", "FIGMA", "https://www.figma.com/proto/7eTpDaicyuOnOWc2hJO291/Google-Project?page-id=0%3A1&node-id=1%3A3&viewport=241%2C48%2C0.42&scaling=scale-down&starting-point-node-id=1%3A3"]
 ];
 
 var $container = document.querySelector("main section");
